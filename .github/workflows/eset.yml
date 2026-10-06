@@ -20,14 +20,9 @@ on:
         required: true
         type: choice
         options:
-          - 1secmail
-          - guerrillamail
-          - developermail
-          - mailticking
           - fakemail
-          - inboxes
-          - incognitomail
           - emailfake
+          - inboxes
         default: emailfake
       key_type:
         description: 'Modes of operation'
